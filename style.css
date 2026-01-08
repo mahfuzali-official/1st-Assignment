@@ -1,3 +1,44 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+
+}
+
 body{
     
+.inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-weight: normal;
 }
+}
+
+
+header{
+  display: flex;
+  justify-content: space-between;
+  padding: 20px 50px;
+  align-items: center;
+}
+
+header .info{
+  display: flex;
+  gap: 45px;
+  font-size: 16px;
+  text-decoration: none;
+  list-style: none;
+}
+
+
+.btn {
+    background-color: #30b868;
+    border: none;
+    padding: 16px 12px;
+    color: white;
+    cursor: pointer;
+    border-radius: 4px;
+    font-weight: bold;
+}
+
