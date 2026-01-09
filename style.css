@@ -84,7 +84,9 @@ nav ul li a {
     cursor: pointer;
 }
 
-/* Hero Section */
+
+
+
 .hero {
     text-align: center;
     padding: 100px 0;
@@ -142,4 +144,52 @@ nav ul li a {
     cursor: pointer;
 }
 
+
+
+
+.problems {
+    background-color: #fff;
+    color: #333;
+    padding: 80px 0;
+    text-align: center;
+}
+
+.section-title {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.section-subtitle {
+    color: #777;
+    margin-bottom: 50px;
+}
+
+.card-grid {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+    justify-content: center;
+}
+
+.card {
+    padding: 30px;
+    background: #fdfdfd;
+    border: 1px solid #eee;
+    border-radius: 10px;
+    width: 322px;
+    height: 300px;
+    justify-items: center;
+}
+
+.red-icon{
+  background: #F95555;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  width: 60px;
+  height: 60px;
+  font-size: 30px;
+  margin-bottom: 15px;
+}
 
