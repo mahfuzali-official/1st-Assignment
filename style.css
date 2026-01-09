@@ -193,3 +193,54 @@ nav ul li a {
   margin-bottom: 15px;
 }
 
+
+
+.solution {
+    padding: 100px 0;
+    justify-content: center;
+    display: flex;              
+    flex-direction: row;             
+    align-items: center;         
+    gap: 20px;                   
+    line-height: auto;   
+}
+
+.solution-container {
+    display: flex;
+    width: 71%;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+
+.solution-image img {
+    width: 100%;
+    max-width: 400px;
+}
+
+.label-green {
+    color: #2ecc71;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.check-list {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.check-list li {
+    margin-bottom: 10px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    list-style: none;
+    font-weight: bold;
+}
+
+.check-list li img{
+  width: 20px;
+  height: 20px;
+  flex-shrink: 0;
+}
+
